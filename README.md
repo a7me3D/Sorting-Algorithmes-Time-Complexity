@@ -146,12 +146,12 @@ funcExtimedf
 </div>
 <div>
     <h3>Algorithms: Time Complexity</h3>
-    <b>Merge Sort: 	O(n log(n)) </b>
-    <b>Bubble Sort: 	O(n^2)	 </b>
-    <b>Selection Sort: 	O(n^2)	</b>
-    <b>Insertion Sort: 	O(n^2)	 </b>
-    <b>Quick Sort: 	O(n^2) </b>
-    <b>Radix Sort: 	O(nk) </b>
+    <b>Merge Sort: 	O(n log(n)) </b></br>
+    <b>Bubble Sort: 	O(n^2)	 </b></br>
+    <b>Selection Sort: 	O(n^2)	</b></br>
+    <b>Insertion Sort: 	O(n^2)	 </b></br>
+    <b>Quick Sort: 	O(n^2) </b></br>
+    <b>Radix Sort: 	O(nk) </b></br>
 
 
 </div>
