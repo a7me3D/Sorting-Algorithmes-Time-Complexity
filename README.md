@@ -56,23 +56,6 @@ funcExtimedf = pd.DataFrame(funcExecTimeData, index=array_sizes)
 funcExtimedf
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -161,7 +144,17 @@ funcExtimedf
   </tbody>
 </table>
 </div>
+<div>
+    <h3>Algorithms: Time Complexity</h3>
+    <b>Merge Sort: 	O(n log(n)) </b>
+    <b>Bubble Sort: 	O(n^2)	 </b>
+    <b>Selection Sort: 	O(n^2)	</b>
+    <b>Insertion Sort: 	O(n^2)	 </b>
+    <b>Quick Sort: 	O(n^2) </b>
+    <b>Radix Sort: 	O(nk) </b>
 
+
+</div>
 
 
 
@@ -170,14 +163,6 @@ plt.figure(figsize=(15,10))
 frame = sns.lineplot(data=funcExtimedf, dashes=False,)
 frame.set_ylim(0,1)
 ```
-
-
-
-
-    (0.0, 1.0)
-
-
-
 
     
 ![png](bechmarkChart.png)
